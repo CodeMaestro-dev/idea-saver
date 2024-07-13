@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
+$primary: #F6B737
+$secondary: #F59A3D
+$grey: #edf2f7
+$dark-grey: #e2e8f0
+$idea-font: "Open Sans", sans-serif
+
+*
+    margin: 0px
+    padding: 0px
+    box-sizing: border-box
+
+body
+    font-family: $idea-font
+
+.navbar
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 25px 30px
+    border-bottom: 1px solid $primary
+
+    & > p
+        text-transform: uppercase
+        color: $secondary
+
+    & > a
+        text-decoration: none
+        background-color: $primary
+        border-bottom: 7px solid $secondary
+        color: white
+        padding: 10px 20px
+        border-radius: 5px
+
+    & > a:active
+        border-bottom: none
+
+.main
+    margin-block-start: 100px
+    display: flex
+    flex-direction: column
+    align-items: center
+
+    & > h1
+        text-transform: uppercase
+
+        & > span
+            color: $secondary
+
+    & > h2
+        margin-block-end: 30px
+
+    & > p
+        font-weight: 600
+        margin-block: 30px
+
+        & > kbd
+            background-color: $grey
+            padding: 3px 5px
+            border-bottom: 4px solid $dark-grey
+    & > a
+        text-decoration: none
+        background-color: $primary
+        border-bottom: 7px solid $secondary
+        color: white
+        padding: 10px 20px
+        border-radius: 5px
+
+    & > a:active
+        border-bottom: none
+
+    & > iframe
+        margin-block-end: 200px

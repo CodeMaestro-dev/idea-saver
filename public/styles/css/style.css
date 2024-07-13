@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 30px;
+  border-bottom: 1px solid #F6B737;
+}
+.navbar > p {
+  text-transform: uppercase;
+  color: #F59A3D;
+}
+.navbar > a {
+  text-decoration: none;
+  background-color: #F6B737;
+  border-bottom: 7px solid #F59A3D;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.navbar > a:active {
+  border-bottom: none;
+}
+
+.main {
+  margin-block-start: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main > h1 {
+  text-transform: uppercase;
+}
+.main > h1 > span {
+  color: #F59A3D;
+}
+.main > h2 {
+  margin-block-end: 30px;
+}
+.main > p {
+  font-weight: 600;
+  margin-block: 30px;
+}
+.main > p > kbd {
+  background-color: #edf2f7;
+  padding: 3px 5px;
+  border-bottom: 4px solid #e2e8f0;
+}
+.main > a {
+  text-decoration: none;
+  background-color: #F6B737;
+  border-bottom: 7px solid #F59A3D;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.main > a:active {
+  border-bottom: none;
+}
+.main > iframe {
+  margin-block-end: 200px;
+}/*# sourceMappingURL=style.css.map */
